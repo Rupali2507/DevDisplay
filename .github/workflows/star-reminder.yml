@@ -1,8 +1,9 @@
 name: Star Reminder for Contributors
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened]
+
 
     #  pull_request_target: (for on every pr)
 
